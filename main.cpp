@@ -16,9 +16,6 @@ int main(){
 	std::cout << "Enter size B: ";
 	std::cin >> b;
 
-    std::cout << "Enter size C: ";
-	std::cin >> c;
-
 	c = calucate_hypotenuse(a, b);
 
 	std::cout << "Side C: " << c << std::endl;
